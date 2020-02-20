@@ -1,0 +1,36 @@
+﻿form {
+    display: inline-block;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 {
+    position: relative;
+}
+
+.accesso {   
+    bottom: 5px;
+}
+
+.container {
+    position:static;
+}
+
+.grid_12 {
+   
+    bottom: 5px;
+    left: 10px;
+}
+
+.centrar {
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+

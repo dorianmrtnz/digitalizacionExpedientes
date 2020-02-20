@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="z6f0kcjqp_v">
+    <property name="$name" value="AutoSproc" />
+    <property name="$defaultDiagram" value="True" />
+    <property name="$metaclass" value="Package Diagram" />
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.SprocFactory">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.ExecuteStoredProcNonQuery(System.Data.IDataParameter[],System.String,AutoSproc.ISprocBase,out@System.Data.IDataParameter[],System.Int32)" />
+      <reference referencedUin="csharp:e_field:src:AutoSproc:AutoSproc.SprocFactory._previousImpls" />
+      <reference referencedUin="csharp:e_field:src:AutoSproc:AutoSproc.SprocFactory._modBuilder" />
+      <reference referencedUin="csharp:e_field:src:AutoSproc:AutoSproc.SprocFactory._asmBuilder" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.DebugParams(System.Data.IDataParameter[])" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.DeepCopyParams(System.Data.IDataParameter[])" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.InitConnection(AutoSproc.ISprocBase,out@System.Boolean)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.BuildCommandWithParams(System.Data.IDbConnection,System.Data.IDataParameter[],System.Int32,System.String)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.ExecuteStoredProcGenerateCommand(System.Data.IDataParameter[],System.String,AutoSproc.ISprocBase)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.HarvestOutputParams(System.Data.IDbCommand,System.Int32)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.ExecuteStoredProcIDataReader(System.Data.IDataParameter[],System.String,AutoSproc.ISprocBase,out@System.Data.IDataParameter[],System.Int32)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.ExecuteStoredProcDataAdapter(System.Data.IDataParameter[],System.String,AutoSproc.ISprocBase,out@System.Data.IDataParameter[],System.Type,System.Data.DataSet,System.Int32)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.GetDbType(System.Reflection.ParameterInfo,out@System.Boolean,out@System.Data.DbType)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.PersistAssembly()" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.ConstructAssemblyModuleHelper()" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.GetSprocName(System.Reflection.MethodInfo)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.EmitDbTypeHelper(System.Type,System.Reflection.Emit.ILGenerator,System.Reflection.ParameterInfo)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.EmitDirectionHelper(System.Type,System.Reflection.Emit.ILGenerator,System.Reflection.ParameterInfo,ref@System.Int32)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.EmitLoadIndirectHelper(System.Reflection.Emit.ILGenerator,System.Reflection.ParameterInfo,System.Int32)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.HarvestParameter(System.Reflection.Emit.ILGenerator,System.Type,System.Int32,System.Int32[],System.Reflection.MethodInfo,System.Reflection.Emit.OpCode[])" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.EmitHarvestOutputParamsHelper(System.Reflection.Emit.ILGenerator,System.Reflection.ParameterInfo[],System.Int32)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.GetParameterTypesFromParameterInfo(System.Reflection.ParameterInfo[])" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.CreateParametersHelper(System.Reflection.Emit.ILGenerator,AutoSproc.DBProvider,System.Int32,System.Reflection.ParameterInfo[],System.Type[],System.Reflection.MethodInfo,ref@System.Int32,System.String)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.ImplementMethodHelper(System.Reflection.MethodInfo,System.Reflection.Emit.TypeBuilder,AutoSproc.DBProvider,System.String)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.ImplementDerivedInterfaceHelper(System.Reflection.Emit.TypeBuilder,System.Type,AutoSproc.DBProvider)" />
+      <reference referencedUin="csharp:e_field:src:AutoSproc:AutoSproc.SprocFactory._fileName" />
+      <reference referencedUin="csharp:e_field:src:AutoSproc:AutoSproc.SprocFactory._assemblyName" />
+      <reference referencedUin="csharp:e_property:src:AutoSproc:AutoSproc.SprocFactory.AssemblyName" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.ConfigureAutoClose(AutoSproc.ISprocBase,System.Boolean)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.VerifyBaseInterface(System.Type)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.CreateInstance(System.Type,System.Data.IDbConnection)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.CreateInstance(System.Type,System.Data.IDbConnection,System.Boolean)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.CreateInstance(System.Type,AutoSproc.DBProvider,System.Boolean)" />
+      <reference referencedUin="csharp:e_method:src:AutoSproc:AutoSproc.SprocFactory.CreateInstance(System.Type,AutoSproc.DBProvider)" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.DbDataTypeAttribute">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.IllegalAutoCloseSettingException">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.DatabaseNotSupportedException">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.ParamPrefixCharException">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.SprocBase">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="csharp:e_field:src:AutoSproc:AutoSproc.SprocBase._connection" />
+      <reference referencedUin="csharp:e_field:src:AutoSproc:AutoSproc.SprocBase._htParams" />
+      <reference referencedUin="csharp:e_property:src:AutoSproc:AutoSproc.SprocBase.Connection" />
+      <reference referencedUin="csharp:e_field:src:AutoSproc:AutoSproc.SprocBase._transaction" />
+      <reference referencedUin="csharp:e_property:src:AutoSproc:AutoSproc.SprocBase.Transaction" />
+      <reference referencedUin="csharp:e_field:src:AutoSproc:AutoSproc.SprocBase._autoClose" />
+      <reference referencedUin="csharp:e_property:src:AutoSproc:AutoSproc.SprocBase.AutoClose" />
+      <reference referencedUin="csharp:l_impl:src:AutoSproc:AutoSproc.SprocBase:AutoSproc.ISprocBase" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.ISprocBase">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="csharp:e_property:src:AutoSproc:AutoSproc.ISprocBase.Connection" />
+      <reference referencedUin="csharp:e_property:src:AutoSproc:AutoSproc.ISprocBase.Transaction" />
+      <reference referencedUin="csharp:e_property:src:AutoSproc:AutoSproc.ISprocBase.AutoClose" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.ParamPrefixCharAttribute">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.SprocNameAttribute">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.DBProvider">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.Locals">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.IllegalBaseInterfaceException">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.UnsupportedStoredProcedureReturnTypeException">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="csharp:e_class:src:AutoSproc:AutoSproc.UnsupportedReferenceParameterType">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>
